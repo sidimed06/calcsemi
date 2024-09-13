@@ -13,3 +13,15 @@ var prixl05=p2*172*l05;
 var prixl5=p3*192*l5;
 document.getElementById("result").value= parseFloat(prixl15)+parseFloat(prixl11)+parseFloat(prixl05)+parseFloat(prixl5);
 }
+function sus(){
+    var s  =document.getElementById("s1").value;
+   var prix =document.getElementById("result").value;
+   document.getElementById("s1").value=prix-s;
+
+    }
+    function add(){
+        var a = parseFloat(document.getElementById("a1").value);
+            var prix = parseFloat(document.getElementById("result").value);
+       document.getElementById("a1").value= prix+ a;
+    
+        }
