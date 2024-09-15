@@ -2,6 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    font-style: italic;
     padding: 0;
     background-color: #F8F9FB;
     color: #333;
@@ -36,15 +37,15 @@ body {
   }
   
   th, td {
-    text-align: left;
+    text-align: center;
     padding:24px; 
-    padding-top: 100px;
-    padding-bottom: 100px;
-    font-size: 20px; /* Larger font size for better readability */
+    padding-top: 85px;
+    padding-bottom: 85px;
+    font-size: 40px; /* Larger font size for better readability */
   }
   
   th {
-    background-color: #007BFF;
+    background-color: black;
     color: white;
     font-weight: normal;
   }
@@ -58,10 +59,10 @@ body {
   }
   
   /* Input and Button Styling */
-  input[type="text"] {
+  input[type="number"] {
     width: 100%;
     padding: 20px; /* Increased padding for better touch area */
-    font-size: 20px; /* Larger font size */
+    font-size: 40px; /* Larger font size */
     border: 1px solid #ddd;
     border-radius: 12px; /* Larger border radius */
     margin-top: 12px;
@@ -69,7 +70,7 @@ body {
     box-sizing: border-box;
   }
   
-  input[type="text"]:focus {
+  input[type="number"]:focus {
     border-color: #007BFF;
     outline: none;
   }
@@ -77,9 +78,9 @@ body {
   input[type="button"] {
     width: 100%;
     padding: 24px; /* Larger button padding */
-    font-size: 22px; /* Larger font size */
+    font-size: 30px; /* Larger font size */
     color: white;
-    background-color: #007BFF;
+    background-color: #000000;
     border: none;
     border-radius: 12px; /* Larger border radius */
     cursor: pointer;
@@ -112,12 +113,12 @@ body {
     }
   
     th, td {
-      font-size: 20px; /* Larger text size */
+      font-size: 20px; /* Larger number size */
       padding: 24px; /* Larger padding */
     }
   
-    input[type="text"], input[type="button"] {
-      font-size: 20px; /* Larger text size */
+    input[type="number"], input[type="button"] {
+      font-size: 20px; /* Larger number size */
       padding: 20px; /* Larger touch area */
     }
   
