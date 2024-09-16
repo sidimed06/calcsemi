@@ -67,7 +67,7 @@ function sus(){
                     store.createIndex('montant_restant', 'montant_restant', { unique: false });
         
                     // Ajouter "Bougelez" lors de la création de la base de données
-                    store.put({ id: 1, nom: 'Bougelez', montant_restant: 100000 });
+                    store.put({ id: 1, nom: 'Bougelez', montant_restant: 0 });
                 };
         
                 request.onsuccess = (event) => {
