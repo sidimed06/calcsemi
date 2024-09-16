@@ -75,8 +75,30 @@
      </tr>
    </table>
    <input type="button" value="Calcul Semi" onclick="calc()">
+   <h1>Resultat = <input type="number" id="result"></h1>
  </div>
- <h1>Resultat = <input type="number" id="result"></h1>
+ 
+ <table>
+  <tr>
+    <th>bougelez</th>
+       <th>montant restant</th>
+       <th>versement</th>
+       <th></th>
+  </tr>
+  <tr>
+    <td><input type="button" value="afficher" onclick="afficherMontantRestant()"></td>
+    <td><input type="number" id="af"></td>
+    <td><input type="number" id="vr"></td>
+    <td><input type="button" value="verser" onclick="verser()"></td>
+  </tr>
+  <tr>
+    <td><input type="button" value="modifier" onclick="modifierFournisseur()"></td>
+    <td><input type="number" id="md"></td>
+    <td><input type="number" id="aj"></td>
+    <td><input type="button" value="Ajouter" onclick="ajouterMontant()"></td>
+  </tr>
+</table>
+ </table>
  <script src="script.js"></script>
 </body>
 </html>
