@@ -6,13 +6,13 @@ body {
     padding: 0;
     background-color: #F8F9FB;
     color: #333;
-    height: 100vh; /* Full viewport height */
-    overflow: hidden; /* Prevent scrolling */
+    min-height: 100vh; /* Full viewport height */
+    
   }
   
   .container {
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    min-height: 100vh; /* Full viewport height */
     padding: 20px; /* Padding to ensure content doesn’t touch edges */
     box-sizing: border-box;
     background-color: #ffffff;
